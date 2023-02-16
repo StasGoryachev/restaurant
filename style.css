@@ -209,13 +209,30 @@ a {
   color: #FFFFFF;
 }
 .cards {
+  margin-top: -100px;
+  margin-bottom: 100px;
   color: #656363;
 }
 .cards__container {
   display: flex;
+  gap: 31px;
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 0 0 349px;
+  padding: 50px 30px 25px;
   box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
   background-color: #FFFFFF;
+}
+.card__title {
+  margin: 0;
+  margin-bottom: 20px;
+}
+.card__txt {
+  margin: 0;
+  min-width: 287px;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
